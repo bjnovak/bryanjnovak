@@ -1,0 +1,22 @@
+{
+  "name": "bryanjnovak",
+  "version": "1.0.0",
+  "description": "Bryan J Novak's public freelance site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjnovak/bryanjnovak.git"
+  },
+  "author": "Bryan J Novak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjnovak/bryanjnovak/issues"
+  },
+  "homepage": "https://github.com/bjnovak/bryanjnovak#readme",
+  "dependencies": {
+    "serve": "^10.0.2"
+  }
+}
