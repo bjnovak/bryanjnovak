@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgb(36,95,166) , rgb(32,85,149));
+  background-image: linear-gradient(rgb(36,95,166), rgb(32,85,149));
 }
 
 body {
@@ -16,49 +16,51 @@ h1 {
   color: white;
   display: inline-block;
   font-size: 2em;
-}
-
-h1 small {
-  color: rgb(203,221,243);
+  border: 2px solid rgb(143,218,5);
+  padding: 5px;
 }
 
 #header {
   display: flex;
   align-items: center;
   padding: 25px;
-  background: rgb(40,104,183);
+  background: rgb(23,26,30);
+}
+
+#quote {
+  color: white;
+  margin-left: 15px;
+  font-style: italic;
+  font-size: 1.125em;
 }
 
 button {
   border: 0;
   background: none;
-  background-image: linear-gradient(rgb(143,218,5), rgb(109,166,4));
-  border-radius: 5px;
+  background: rgb(130,198,4);
+  border-radius: 2px;
   color: white;
   font-size: 1.125em;
-  font-weight: bold;
   padding: 10px 20px;
   margin-left: auto;
   box-sizing: border-box;
-  height: 41px;
-  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+  height: 58px;
   outline: none;
+  transition: background 0.25s;
 }
 
 button:hover {
   cursor: pointer;
-}
-
-button:active {
-  background: rgb(109,166,4);
-  padding-top: 11px;
+  background: rgb(116,176,4);
+  transition: background 0.25s;
 }
 
 footer {
   padding: 25px;
-  background: rgb(35,35,35);
+  background: rgb(30,80,140);
   margin-top: auto;
 }
+
 footer p {
   color: white;
   text-align: center;
